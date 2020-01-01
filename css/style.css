@@ -1,0 +1,319 @@
+/*
+		
+	Author Name:Tasnim Ahmed;
+	Mail Address:tasnima156@gmail.com;
+
+*/
+
+/*
+
+	====Index====
+
+	1.Header
+	2. Fusce at
+	3.Facilisi
+	4.Ante donec
+	5.Blandit rhoncus
+	6.Placerat
+	7.Footer
+
+*/
+
+/*Global CSS*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+h1{
+	font-size: 25px;
+	color:#31353e;
+	text-align: center;
+	padding: 
+}
+h2{
+	color: #fff;
+	font-size: 50px;
+}
+h4{
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	padding: 15px 0px;
+
+}
+h6{
+	font-size: 23px;
+	color: #fff;
+}
+p{
+	text-align: center;
+	color: #bab8b8;
+	font-size: 16px;
+}
+.img-center{
+	display: block;
+	margin: 0 auto;
+	
+}
+
+.btn-cstm-one{
+	display: block;
+    margin: 25px auto;
+    background-color: #fff;
+    color: #612316;
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-size: 20px;
+
+}
+.btn-cstm-one:hover{
+	color: #fff;
+	background:  #dd4b2b;
+	transition: 1.5s;
+
+}
+
+/*Theme CSS*/
+
+/*Header Part Start*/
+
+
+.nav-head{
+	background: #edeff1!important;
+	padding: 20px 0px;
+}
+.nav-link{
+	color: #31353e!important;
+	margin-right: 10px; 
+}
+.nav-link.js-scroll-trigger.active{
+
+	background-color: #dd4b2b; 
+	padding: 7px 18px;
+	border-radius: 30px;
+	color: #fff!important;
+}
+
+
+/*Header Part End*/
+
+/*Fusce Part Start*/
+
+
+.hero{
+	background: url(../img/banner.png)no-repeat center top;
+	background-size: cover;
+
+}
+.hero-title{
+	padding-top: 300px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+/*Fusce Part End*/
+
+
+/*Facilisi Part Start*/
+.food-item{
+	background: #edeff1;
+	padding: 100px 0px;
+}
+.food-title{
+	padding-bottom:30px;
+}
+.h4{
+	color: #575a60;
+}
+.p{
+	color: #454950;
+}
+
+
+
+
+
+/*Facilisi Part End*/
+
+
+/*Donec Part Start*/
+
+.newsletter{
+	background: url(../img/newsletter-cover.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 0px;
+	background-position: top center;
+	
+
+}
+.foot-text{
+	color: white;
+    font-size: 17px;
+    text-align: center;
+   
+}
+.h3-text{
+	text-align: center;
+    margin-bottom: 8px;
+    color: white;
+    font-size: 35px;
+}
+.newsletter-title input{
+	padding: 12px 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 32%;
+    background: transparent;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 325px;
+}
+.newsletter-title .btn-cstm-two{
+	padding: 13px 50px;
+	background: white;
+	color: black;
+	border: none;
+	border-radius: 50px;
+	margin-left: -53px;
+	margin-top: -3px;
+	transition: 1s;
+}
+.newsletter-title .btn-cstm-two:hover{
+	background: #dd4b2b;
+	color: white;
+}
+/*Donec Part End/
+
+/*Blanditt Part Start*/
+
+.lorem{
+	padding:30px 0px;
+}
+.lorem h1{
+	text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.lorem p{
+	text-align: left;
+	color: #6e6f74;
+	font-size: 15px;
+
+}
+.btn-cstm-tre{
+	display: block;
+    margin: 25px auto;
+    background-color:  #dd4b2b;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-size: 20px;
+
+}
+.btn-cstm-tre:hover{
+	color: #dd4b2b;
+	background:  #fff;
+	transition: 1.5s;
+	border:1px solid #dd4b2b;
+
+}
+.btn-cstm-four{
+	display: block;
+    margin: 25px auto;
+    background-color:  #4b4e73;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-size: 20px;
+
+}
+.btn-cstm-four:hover{
+	color: #4b4e73;
+	background:  #fff;
+	transition: 1.5s;
+	border:1px solid #4b4e73;
+
+
+}
+
+/*Blanditt Part End*/
+
+/*Placeratt Part Start*/
+.list-section{
+	background: #d75d0e;
+	padding: 50px 0px;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+}
+/*Placeratt Part End*/
+
+/*Footer Part Start*/
+footer{
+	background: url(../img/newsletter-cover.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding: 70px 0px 100px;
+
+}
+.footer-para{
+	color: #fff;
+
+}
+
+/*Footer Part End*/
+
+@media (min-width: 0px) and (max-width: 500px){
+
+	.hero-title h2{
+		font-size: 39px;
+		margin-top: 40px;
+	}
+	span.navbar-toggler-icon{
+
+		background: black;
+	}
+
+	.newsletter-title input{
+		margin-left: 100px;
+
+	}
+	.img-center{
+		margin-bottom: 20px;
+	}
+
+	.lorem h1{
+		text-align: center;
+	}
+
+	.list-item{
+		border-bottom: 1px solid #4b4e73;
+		display: block;
+		width: 100%;
+		margin:20px auto;
+	}
+	.footer-para{
+		text-align: center;
+		font-size:20px;
+	}
+
+
+
+	}
+
+
+
